@@ -1,163 +1,961 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>图南</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kexinnan.github.io/favicon.ico?v=1579082028302">
-<link rel="stylesheet" href="https://kexinnan.github.io/styles/main.css">
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="背负青天而莫之夭阏者，而后乃今图南👊。">
-    
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://kexinnan.github.io">
-        <img src="https://kexinnan.github.io/images/avatar.png?v=1579082028302" class="site-logo">
-        <h1 class="site-title">图南</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      背负青天而莫之夭阏者，而后乃今图南👊。
-    </div>
-    <div class="site-footer">
-       | <a class="rss" href="https://kexinnan.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://kexinnan.github.io/post/lesslessfu-ba-ba-qiong-ba-ba-greatergreater-du-shu-bi-ji">
-                  <h2 class="post-title">《富爸爸穷爸爸》读书笔记</h2>
-                </a>
-                <div class="post-date">
-                  2020-01-15
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://kexinnan.github.io/post/lesslessfu-ba-ba-qiong-ba-ba-greatergreater-du-shu-bi-ji">
-                  <div class="feature-container" style="background-image: url('https://kexinnan.github.io/post-images/lesslessfu-ba-ba-qiong-ba-ba-greatergreater-du-shu-bi-ji.jpeg')">
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <title>G-AI 人工智能数据服务平台</title>
+      <meta name="description" content="" />
+      <meta name="viewport" content="wicorporateh=device-wicorporateh, initial-scale=1" />
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/png" href="assets/images/data/favicon.png" />
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="venobox/venobox.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css" />
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link rel="stylesheet" type="text/css" href="assets/css/allcss/data_style.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/allcss/responsive/responsive.css"/>
+      <link rel="stylesheet" type="text/css" href="assets/css/allcss/responsive/data-responsive.css" />
+      <!-- modernizr js -->
+      <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+   </head>
+   <body>
+         <!-- TOP RIGHT -->
+         <div class="col-xs-12 col-lg-4 col-xl-4 col-md-12 col-sm-12">
+         </div>
+         <!-- END HEADER TOP AREA -->
+         <div class="poket-main-menu one_page hidden-xs hidden-sm  witr_h_h10">
+            <div class="poket_nav_area scroll_fixed postfix">
+               <div class="container">
+                  <div class="row logo-left">
+                     <div class="col-md-3 col-sm-3 col-xs-4">
+                        <div class="logo">
+                           <a class="main_sticky_main_l" href="index.html" title="G-AI">
+                           <img src="assets/images/data/logo1.png" alt="poket">
+                           </a>
+                           <a class="main_sticky_l" href="index.html" title="G-AI">
+                           <img src="assets/images/data/logo2.png" alt="poket">
+                           </a>
+                        </div>
+                     </div>
+                     <!-- MAIN MENU -->
+                     <div class="col-md-9 col-sm-9 col-xs-8">
+                        <div class="tx_mmenu_together">
+                           <nav class="poket_menu">
+                              <ul class="sub-menu">
+                                 <li>
+                                    <a href="index.html">首页</a>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="#">数据服务</a>
+                                    <ul class="sub-menu">
+                                       <li><a href="data-service-collection.html">数据采集</a></li>
+                                       <li><a href="data-service-annotation.html">数据标注</a></li>
+                                       <li><a href="data-service-plant.html">数据平台</a></li>
+                                       <li><a href="data-service-case.html">成品数据集</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="#">应用场景</a>
+                                    <ul class="sub-menu">
+                                       <li><a href="data-scene-AIGC.html">AIGC</a></li>
+                                       <li><a href="data-scene-Autodriving.html">自动驾驶</a></li>
+                                       <li><a href="data-scene-security.html">智慧安防</a></li>
+                                       <li><a href="data-scene-press.html">出版校对</a></li>
+                                       <li><a href="data-scene-culturalrelic.html">文物保护</a></li>
+                                       <li><a href="data-scene-medical.html">医学健康</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="data-contact.html">联系我们</a></li>
+                              </ul>
+                           </nav>
+                           <div class="main-search-menu">
+                              <div class="em-quearys-top msin-menu-search">
+                                 <div class="em-top-quearys-area">
+                                    <div class="em-header-quearys">
+                                       <!-- <div class="em-quearys-menu">
+                                          <i class="icofont-search-2 t-quearys"></i>
+                                       </div> -->
+                                    </div>
+                                    <!--SEARCH FORM-->
+                                    <div class="em-quearys-inner">
+                                       <div class="em-quearys-form">
+                                          <form class="top-form-control" action="#" method="get">
+                                             <input type="text" placeholder="Type Your Keyword" name="s" value="">
+                                             <button class="top-quearys-style" type="submit">
+                                             <i class="icofont-long-arrow-right"></i>
+                                             </button>
+                                          </form>
+                                          <div class="em-header-quearys-close text-center mrt10">
+                                             <!-- <div class="em-quearys-menu">
+                                                <i class="icofont-close-line t-close"></i>
+                                             </div> -->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://kexinnan.github.io/post/2019-summary">
-                  <h2 class="post-title">2019年小结</h2>
-                </a>
-                <div class="post-date">
-                  2020-01-14
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://kexinnan.github.io/post/2019-summary">
-                  <div class="feature-container" style="background-image: url('https://kexinnan.github.io/post-images/2019-summary.jpeg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
-        </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
+      <!-- MOBILE MENU Logo AREA -->
+      <div class="mobile_logo_area hidden-md hidden-lg">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="mobile_menu_logo text-center">
+                     <a href="" title="G-AI">
+                     <img src="assets/images/data/logo1.png" alt="poket" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- MOBILE MENU AREA -->
+      <div class="home-2 mbm hidden-md hidden-lg header_area main-menu-area">
+         <div class="menu_area mobile-menu">
+            <nav class="poket_menu">
+               <ul class="sub-menu">
+                                 <li>
+                                    <a href="index.html">首页</a>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="#">数据服务</a>
+                                    <ul class="sub-menu">
+                                       <li><a href="data-service-collection.html">数据采集</a></li>
+                                       <li><a href="data-service-annotation.html">数据标注</a></li>
+                                       <li><a href="data-service-plant.html">数据平台</a></li>
+                                       <li><a href="ata-service-case.html">成品数据集</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="#">应用场景</a>
+                                    <ul class="sub-menu">
+                                       <li><a href="data-scene-AIGC.html">AIGC</a></li>
+                                       <li><a href="data-scene-Autodriving.html">自动驾驶</a></li>
+                                       <li><a href="data-scene-security.html">智慧安防</a></li>
+                                       <li><a href="data-scene-press.html">出版校对</a></li>
+                                       <li><a href="data-scene-culturalrelic.html">文物保护</a></li>
+                                       <li><a href="data-scene-medical.html">医学健康</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="data-contact.html">联系我们</a></li>
+				</ul>
+            </nav>
+         </div>
+      </div>
+      <!-- END MOBILE MENU AREA  -->
+      <div class="witr_ds_content_area ">
+         <div class="witr_ds_slider_content ds_slider_activ">
+            <div class=" witr_ds_content witr_slick_height text-left" style="background-image:url(assets/images/data/slider1.jpg)">
+               <div class="witr_ds_content_inner witr_containers">
+                  <h2>集群数据</h2>
+                  <h3>G-AI 人工智能数据服务供应商</h3>
+                  <p>为全行业提供高质量、低成本、标准化、多语言的数据采集 / 标注服务。人工智能，近在咫尺。</p>
+               </div>
+            </div>
+            <div class=" witr_ds_content witr_slick_height text-left" style="background-image:url(assets/images/data/slider2.jpg)">
+               <div class="witr_ds_content_inner witr_containers">
+                  <h2>集群数据</h2>
+                  <h3>G-AI 人工智能数据服务供应商</h3>
+                  <p>为全行业提供高质量、低成本、标准化、多语言的数据采集 / 标注服务。人工智能，近在咫尺。</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider area -->
+      <!-- news feed area -->
+      <div class="news_feed_area">
+         <div class="container">
+            <div class="row new_feed_inner">
+               <!-- single news -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="witr_feed_news all_feed_color">
+                     <div class="snigle_news_feed">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="news_feed_title">
+                           <h3><span style="font-size: 24px;">一站式高质量的结果交付</span></h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 2 single news -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="witr_feed_news all_feed_color">
+                     <div class="snigle_news_feed">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="news_feed_title">
+                           <h3><span style="font-size: 24px;">基于平台运作的成本管理</span></h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 3 single news -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="witr_feed_news all_feed_color">
+                     <div class="snigle_news_feed">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="news_feed_title">
+                           <h3><span style="font-size: 24px;">即插即用的标准化产出</span></h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About area -->
+      <div class="data_about_area">
+         <div class="container">
+            <div class="witr_shape_item">
+               <div class="witr_shape_item_inner">
+                  <div class="witr_shape_image "> 
+                     <img src="assets/images/data/shap1.png" alt="image" />
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-6 col-md-6">
+                  <div class="about_image_inner">
+                     <div class="single_image_area">
+                        <div class="single_image single_line_option  ">
+                           <img src="assets/images/data/about-img.png" alt="image" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="about_content_inner">
+                     <div class="witr_section_title">
+                        <div class="witr_section_title_inner text-left">
+                           <h2>WELCOME TO G-AI</h2>
+                           <h3>关注人工智能基础服务的</h3>
+                           <h1>先进生产力</h1>
+                           <p>集群数据是一家提供满足人工智能行业数据数据需求的数据采集与标注服务公司，专注为计算机视觉、语音识别、NLP任务提供高质量的训练数据。</p>
+                           <p>公司提供行业领先的AI数据中台系统，通过分布式流程管理和统一质检，实现数据采集、数据生产、数据管理、模型训练、模型部署等环节的高效率运作。数据作为人工智能的石油，高质量、标准化的数据标注，可以极大提升AI训练的效率和结果呈现，正纬数据可以为行业提供数据质量、成本、标准、可扩展性的绝佳解决方案。</p>
+                        </div>
+                     </div>
+                     <div class="about_middle_content">
+                        <div class="witr_section_title">
+                           <div class="witr_section_title_inner text-left">
+                              <h2>更多咨询邮箱: <span> support@gaggleai.com</span></h2>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- feature area -->
+      <div class="data_feature_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="witr_section_title">
+                     <div class="witr_section_title_inner text-center">
+                        <h2>数据服务</h2>
+                        <h3>专业的人工智能数据服务解决方案</h3>
+                        <p>G-AI集成丰富高效的标注工具、具备强大的工作流调度能力、通过对自有团队、供应商团队及百万级众包资源进行资源整合。从数据采集、清洗、标注及质检，全流程、一站式满足AI数据需求</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- single feature -->
+               <div class="col-lg-3 col-md-6">
+                  <div class="twr_feature_four all_feature_color text-left ">
+                     <div class="twr_feature_four_image">
+                        <img src="assets/images/data/service1.jpg" alt="image" />
+                        <div class="twr_feature_four_inner">
+                           <div class="twr_feature_three_text">
+                              <h3><a href="#">数据采集</a></h3>
+                              <div class="feature_list_option">
+                                 <ul>
+                                    <li class=" feature-item-7267121"> 语音、文本、图像和视频等数据采集能力和定制服务</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 2 single feature -->
+               <div class="col-lg-3 col-md-6">
+                  <div class="twr_feature_four all_feature_color text-left ">
+                     <div class="twr_feature_four_image">
+                        <img src="assets/images/data/service2.jpg" alt="image" />
+                        <div class="twr_feature_four_inner">
+                           <div class="twr_feature_three_text">
+                              <h3><a href="#">数据标注</a></h3>
+                              <div class="feature_list_option">
+                                 <ul>
+                                    <li class=" feature-item-7267121"> 支持计算机视觉、语音工程、自然语言等多类数据标注</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 3 single feature -->
+               <div class="col-lg-3 col-md-6">
+                  <div class="twr_feature_four all_feature_color text-left ">
+                     <div class="twr_feature_four_image">
+                        <img src="assets/images/data/service3.jpg" alt="image" />
+                        <div class="twr_feature_four_inner">
+                           <div class="twr_feature_three_text">
+                              <h3><a href="#">数据平台</a></h3>
+                              <div class="feature_list_option">
+                                 <ul>
+                                    <li class=" feature-item-7267121">基于开源工具的数据采集与标注平台</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 4 single feature -->
+               <div class="col-lg-3 col-md-6">
+                  <div class="twr_feature_four all_feature_color text-left ">
+                     <div class="twr_feature_four_image">
+                        <img src="assets/images/data/service4.jpg" alt="image" />
+                        <div class="twr_feature_four_inner">
+                           <div class="twr_feature_three_text">
+                              <h3><a href="#">成品数据集</a></h3>
+                              <div class="feature_list_option">
+                                 <ul>
+                                    <li class=" feature-item-7267121">可用于商业化的文本、语音和图像成品数据库</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- call to action -->
+      <div class="call_action_area">
+         <div class="container">
+            <div class="row call_inner">
+               <div class="col-lg-9 col-md-8">
+                  <div class="em-service2 sleft all_color_service">
+                     <div class="em_service_content ">
+                        <div class="em_single_service_text  ">
+                           <div class="text_box witr_s_flex">
+                              <div class="service_top_text all_icon_color">
+                                 <div class="em-service-icon">
+                                    <i class="flaticon flaticon-phone-call"></i>
+                                 </div>
+                              </div>
+                              <div class="em-service-inner">
+                                 <div class="em-service-title">
+                                    <h3><a href="#">专业采标能力 <span>提供一站式数据解决方案<span></span></span></a></h3>
+                                 </div>
+                                 <div class="em-service-desc">
+                                    <p>咨询更多服务，请发送Email至 support@gaggleai.com，或者直接</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4 witr_all_pd0">
+                  <div class="witr_button_area">
+                     <div class="witr_btn_style mr">
+                        <div class="witr_btn_sinner">
+                           <a href="data-contact.html" class="witr_btn">联系我们</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- choose area -->
+      <div class="data_choose_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-6">
+                  <div class="choose_img_inner">
+                     <div class="single_image_area">
+                        <div class="single_image single_line_option  "> 
+                           <img src="assets/images/data/choose-img.jpg" alt="image" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="choose_content_inner">
+                     <div class="witr_section_title">
+                        <div class="witr_section_title_inner text-left">
+                           <h2>服务流程</h2>
+                           <h3>先进的生产力平台</h3>
+                           <p>G-AI基于先进的数据平台构建，支持box2d、ellipse、polygon、line、curve、point、parallel、box3d、cuboid、side_cuboid、sentence等多种标注实现，拥有丰富的行业经验以及强大的数据处理能力，具备完善的数据标注、审核、质检流程。</p>
+                           <p>G-AI拥有成熟的数据合规与安全机制，构建AI数据服务的核心竞争力</p>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-
-
-  </body>
+                        </div>
+                     </div>
+                                          <!-- choose service item -->
+                                          <div class="choose_service_inner">
+                                             <div class="em-service2 sleft all_color_service">
+                                                <div class="em_service_content ">
+                                                   <div class="em_single_service_text ">
+                                                      <div class="service_top_image"></div>
+                                                      <div class="text_box witr_s_flex">
+                                                         <div class="service_top_text all_icon_color">
+                                                            <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                                         </div>
+                                                         <div class="em-service-inner">
+                                                            <div class="em-service-title">
+                                                               <h3><span style="font-size: 16px;">质量</span></h3>
+                                                            </div>
+                                                            <div class="em-service-desc"></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="em-service2 sleft all_color_service">
+                                                <div class="em_service_content ">
+                                                   <div class="em_single_service_text ">
+                                                      <div class="service_top_image"></div>
+                                                      <div class="text_box witr_s_flex">
+                                                         <div class="service_top_text all_icon_color">
+                                                            <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                                         </div>
+                                                         <div class="em-service-inner">
+                                                            <div class="em-service-title">
+                                                               <h3><span style="font-size: 16px;">精度</span></h3>
+                                                            </div>
+                                                            <div class="em-service-desc"></div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                     <!-- choose service item -->
+                     <div class="choose_service_inner">
+                        <div class="em-service2 sleft all_color_service">
+                           <div class="em_service_content ">
+                              <div class="em_single_service_text ">
+                                 <div class="service_top_image"></div>
+                                 <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                       <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                       <div class="em-service-title">
+                                          <h3><span style="font-size: 16px;">效率</span></h3>
+                                       </div>
+                                       <div class="em-service-desc"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="em-service2 sleft all_color_service">
+                           <div class="em_service_content ">
+                              <div class="em_single_service_text ">
+                                 <div class="service_top_image"></div>
+                                 <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                       <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                       <div class="em-service-title">
+                                          <h3><span style="font-size: 16px;">规模</span></h3>
+                                       </div>
+                                       <div class="em-service-desc"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- choose service item -->
+                     <div class="choose_service_inner">
+                        <div class="em-service2 sleft all_color_service">
+                           <div class="em_service_content ">
+                              <div class="em_single_service_text ">
+                                 <div class="service_top_image"></div>
+                                 <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                       <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                       <div class="em-service-title">
+                                          <h3><span style="font-size: 16px;">安全</span></h3>
+                                       </div>
+                                       <div class="em-service-desc"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="em-service2 sleft all_color_service">
+                           <div class="em_service_content ">
+                              <div class="em_single_service_text ">
+                                 <div class="service_top_image"></div>
+                                 <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                       <div class="em-service-icon"> <i class="fas fa-check-circle"></i></div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                       <div class="em-service-title">
+                                          <h3><span style="font-size: 16px;">合规</span></h3>
+                                       </div>
+                                       <div class="em-service-desc"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- project bg area -->
+      <div class="project_bg_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="witr_section_title">
+                     <div class="witr_section_title_inner text-center">
+                        <h2>应用场景</h2>
+                        <h3>致力于实现全场景、通用型的</h3>
+                        <h1>数据服务覆盖</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- project area -->
+      <div class="data_project_area">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="witr_pslide all_pslides_color ps1">
+                     <div class=" project_inner real_pro_active">
+                        <!-- project item  -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project1.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-AIGC.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-AIGC.html">AIGC</a></h3>
+                                    <p>创意生成/内容生态</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- project item 02 -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project2.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-Autodriving.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-Autodriving.html">自动驾驶</a></h3>
+                                    <p>智能座舱/高精地图/辅助驾驶</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- project item 03 -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project3.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-security.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-security.html">智慧安防</a></h3>
+                                    <p>安全预警/潜在风险识别</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- project item 04 -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project4.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-press.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-press.html">出版校对</a></h3>
+                                    <p>内容识别/内容过滤/文法校正</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- project item 05 -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project5.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-culturalrelic.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-culturalrelic.html">文物保护</a></h3>
+                                    <p>原生保护/再生保护</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- project item 06 -->
+                        <div class="item_pos col-lg-12">
+                           <div class="witr_single_pslide">
+                              <div class="witr_pslide_image"> 
+                                 <img src="assets/images/data/project6.jpg" alt="image" />
+                              </div>
+                              <div class="witr_content_pslide_text">
+                                 <div class="witr_pslide_custom">
+                                    <a href="data-scene-medical.html"><span class="ti-arrow-right"></span></a>
+                                 </div>
+                                 <div class="witr_content_pslide">
+                                    <h3><a href="data-scene-medical.html">医学健康</a></h3>
+                                    <p>严肃医疗/智慧医助</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- skill area -->
+      <div class="data_skill_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-6">
+                  <div class="skill_inner">
+                     <div class="witr_section_title">
+                        <div class="witr_section_title_inner text-left">
+                           <h2>全场景覆盖</h2>
+                           <h3>以标准化的结果输出，实现多场景的数据交付</h3>
+                           <p>G-AI具备完善的数据处理能力，基于开放的互联网，构建兼容行业主流交付格式的数据处理流程。可满足客户定制化的数据需求</p>
+                        </div>
+                     </div>
+                     <!-- single item -->
+                     <div class="witr_single_progress all_color_bar">
+                        <div class="witr_title2"> <span class="witr_label">标准化</span></div>
+                        <div class="progress witr_progress-style2">
+                           <div class="progress-bar wow fadeInLeft animated" style="width: 85%; animation-duration: 1.5s; animation-delay: 0.2s;"> <span class="witr_percent">85%</span></div>
+                        </div>
+                     </div>
+                     <!-- 2 single item -->
+                     <div class="witr_single_progress all_color_bar">
+                        <div class="witr_title2"> <span class="witr_label">覆盖度</span></div>
+                        <div class="progress witr_progress-style2">
+                           <div class="progress-bar wow fadeInLeft animated" style="width:90%; animation-duration: 1.5s; animation-delay: 0.2s;"> <span class="witr_percent">90%</span></div>
+                        </div>
+                     </div>
+                     <!-- 3 single item -->
+                     <div class="witr_single_progress all_color_bar">
+                        <div class="witr_title2"> <span class="witr_label">适用性</span></div>
+                        <div class="progress witr_progress-style2">
+                           <div class="progress-bar wow fadeInLeft animated" style="width: 75%; animation-duration: 1.5s; animation-delay: 0.2s;"> <span class="witr_percent">75%</span></div>
+                        </div>
+                     </div>
+                     <div class="witr_button_area">
+                        <div class="witr_btn_style mr">
+                           <div class="witr_btn_sinner"> <a href="data-contact.html" class="witr_btn">联系我们</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="skill_image_inner">
+                     <div class="single_image_area">
+                        <div class="single_image single_line_option">
+                           <img src="assets/images/data/skill-img.jpg" alt="image" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- brand area -->
+      <div class="data_brand_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="carousel_imagess_area">
+                     <div class="brand_act">
+                        <!-- single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b1.png" alt="image" /></a>
+                           </div>
+                        </div>
+                        <!-- 02 single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b2.png" alt="image" /></a>
+                           </div>
+                        </div>
+                        <!-- 03 single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b3.png" alt="image" /></a>
+                           </div>
+                        </div>
+                        <!-- 04 single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b4.png" alt="image" /></a>
+                           </div>
+                        </div>
+                        <!-- 05 single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b2.png" alt="image" /></a>
+                           </div>
+                        </div>
+                        <!-- 06 single brand -->
+                        <div class="col-lg-12">
+                           <div class="slide_items">
+                              <a href="#"><img src="assets/images/data/b3.png" alt="image" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- data blog area -->
+      <div class="data_blog_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="witr_section_title">
+                     <div class="witr_section_title_inner text-center">
+                        <h2>数据样例</h2>
+                        <h3>提供可商用的成品数据集</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <!-- Blog Section -->
+                  <div class="witr_blog_area13 witr_blog_area14">
+                     <div class="blog_wrap blogcar_id1 blog_active ">
+                        <!-- single blog -->
+                        <div class="witr_all_mb_30 col-md-12 col-xs-12 col-sm-12">
+                           <div class="busi_singleBlog">
+                              <div class="witr_sb_thumb">
+                                 <a href="data-case-detail1.html"><img src="assets/images/data/datacase1.jpg" alt="image" /> </a>
+                                 <div class="witr_top_category">
+                                    <ul class="post-categories">
+                                       <li><a href="data-case-detail1.html">自动驾驶</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="all_blog_color">
+                                 <div class="witr_blog_con bs5">
+                                    <h2><a href="data-case-detail1.html">3D物体检测评估点云数据集</a></h2>
+                                    <p>3D对象检测基准由7481个训练图像和7518个测试图像以及相应的点云组成，包括总共80.256个标记对象……</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- 2 single blog -->
+                        <div class="witr_all_mb_30 col-md-12 col-xs-12 col-sm-12">
+                           <div class="busi_singleBlog">
+                              <div class="witr_sb_thumb">
+                                 <a href="data-case-detail2.html"><img src="assets/images/data/datacase2.jpg" alt="image" /> </a>
+                                 <div class="witr_top_category">
+                                    <ul class="post-categories">
+                                       <li><a href="data-case-detail2.html">AIGC</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="all_blog_color">
+                                 <div class="witr_blog_con bs5">
+                                    <h2><a href="data-case-detail2.html">Vimeo-90k视频数据集</a></h2>
+                                    <p>一个大规模、高质量的视频数据集Vimeo90K。这个数据集由从vimeo.com下载的8.98万个视频片段组成……</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- 3 single blog -->
+                        <div class="witr_all_mb_30 col-md-12 col-xs-12 col-sm-12">
+                           <div class="busi_singleBlog">
+                              <div class="witr_sb_thumb">
+                                 <a href="data-case-detail3.html"><img src="assets/images/data/datacase3.jpg" alt="image" /> </a>
+                                 <div class="witr_top_category">
+                                    <ul class="post-categories">
+                                       <li><a href="data-case-detail3.html">智能安防</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="all_blog_color">
+                                 <div class="witr_blog_con bs5">
+                                    <h2><a href="data-case-detail3.html">对象跟踪评估数据集</a></h2>
+                                    <p>目标跟踪基准由21个训练序列组成，该数据已标记8个不同的类，通过一组注释器，将3D边界框标记为点云中的轨迹……</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="witr_button_area">
+                     <div class="witr_btn_style mr">
+                        <div class="witr_btn_sinner"> <a href="data-service-case.html" class="witr_btn" style="left:50%; transform: translate(-50%);">查看更多</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer area -->
+      <div class="witrfm_area">
+         <!-- FOOTER MIDDLE AREA -->
+         <div class="footer-middle">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6  col-lg-3">
+                     <div id="twr_description_widget-2">
+                        <div class="poket-description-area">
+                           <a href="#"><img src="assets/images/data/logo2.png" alt="image" /></a>
+                           <p>为全行业提供高质量、低成本、标准化、多语言的数据采集 / 标注服务。人工智能，近在咫尺。</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6  col-lg-3">
+                     <div class="widget widget_nav_menu">
+                        <h2 class="widget-title">数据服务</h2>
+                        <div class="menu-useful-links-container">
+                           <ul class="menu">
+                              <li><a href="data-service-collection.html">数据采集</a></li>
+                              <li><a href="data-service-annotation.html">数据标注</a></li>
+                              <li><a href="data-service-plant.html">数据平台</a></li>
+                              <li><a href="data-service-case.html">成品数据集</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6  col-lg-3">
+                     <div class="widget widget_nav_menu">
+                        <h2 class="widget-title">应用场景</h2>
+                        <div class="menu-useful-links-container">
+                           <ul class="menu">
+                              <li><a href="data-scene-AIGC.html">AIGC</a></li>
+                              <li><a href="data-scene-Autodriving.html">自动驾驶</a></li>
+                              <li><a href="data-scene-security.html">智慧安防</a></li>
+                              <li><a href="data-scene-press.html">出版校对</a></li>
+                              <li><a href="data-scene-culturalrelic.html">文物保护</a></li>
+                              <li><a href="data-scene-medical.html">医学健康</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6  col-lg-3">
+                     <div id="about_us-widget-1" class="widget about_us">
+                        <h2 class="widget-title">联系方式</h2>
+                        <div class="about-footer">
+                           <div class="footer-widget address">
+                              <div class="footer-logo"></div>
+                              <div class="footer-address">
+                                 <div class="footer_s_inner">
+                                    <div class="footer-sociala-icon"> <i class="icofont-google-map"></i></div>
+                                    <div class="footer-sociala-info">
+                                       <p>北京市房山区广阳中路1号院一区</p>
+                                    </div>
+                                 </div>
+                                 <div class="footer_s_inner">
+                                    <div class="footer-sociala-icon"> <i class="icofont-phone"></i></div>
+                                    <div class="footer-sociala-info">
+                                       <p>(+86) 000 0000 0000</p>
+                                    </div>
+                                 </div>
+                                 <div class="footer_s_inner">
+                                    <div class="footer-sociala-icon"> <i class="icofont-envelope-open"></i></div>
+                                    <div class="footer-sociala-info">
+                                       <p>support@gaggleai.com</p>
+                                    </div>
+                                 </div>
+                                 <div class="footer_s_inner">
+                                    <div class="footer-sociala-icon"><i class="icofont-ui-clock"></i></div>
+                                    <div class="footer-sociala-info">
+                                       <p>客服时间: 10:00 - 19:00</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END FOOTER MIDDLE AREA -->
+         <!-- FOOTER BOTTOM AREA -->
+         <div class="footer-bottom">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 col-md-6  col-sm-12">
+                     <div class="copy-right-text">
+                        <p> Copyright &copy; all rights by <a href="#">G-AI</a>.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Include All JS -->
+      <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/isotope.pkgd.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/jquery.nivo.slider.pack.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="venobox/venobox.min.js"></script>
+      <script src="assets/js/jquery.appear.js"></script>
+      <script src="assets/js/jquery.knob.js"></script>
+      <script src="assets/js/BeerSlider.js"></script>
+      <script src="assets/js/theme-pluginjs.js"></script>
+      <script src="assets/js/jquery.meanmenu.js"></script>
+      <script src="assets/js/ajax-mail.js"></script>
+      <script src="assets/js/theme.js"></script>
+   </body>
 </html>
