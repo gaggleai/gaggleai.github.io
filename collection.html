@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/simplelightbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="img/favicon.ico" rel="shortcut icon" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i%7CPlayfair+Display+SC:900" rel="stylesheet">
+    <title>十五堂</title>
+</head>
+<body>
+    <div class="is-mobile"></div>
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <!--end LOADER -->
+
+     <!-- HEADER -->
+     <header class="header-style-2">
+        <div class="wide-container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    <a class="logo" href="index.html"><img src="img/logo.png" alt="" /></a>  
+                </div>
+                <div class="col-xs-10 text-right">
+
+                    <ul class="header-menu">
+                        <li><a href="index.html"><span>首页</span></a></li>
+                        <li class="active"><a href="collection.html"><span>琳琅集</span></a></li>
+                        <li><a href="product.html"><span>博物家</span></a></li>
+                        <!-- <li>
+                            <a href="portfolio.html"><span>Portfolio</span></a>
+                            <span></span>
+                            <ul>
+                                <li><a href="portfolio.html">Portfolio #1</a></li>
+                                <li><a href="portfolio_wide.html">Portfolio #2</a></li>
+                                <li><a href="detail.html">Portfolio detail</a></li>
+                            </ul>
+                        </li> -->
+                        <!-- <li class="dropdown-plus">
+                            <a href="blog.html"><span>Blog</span></a>
+                            <span></span>
+                            <ul>
+                                <li><a href="post.html">Blog post</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="shop.html"><span>Products</span></a>
+                            <span></span>
+                            <ul>
+                                <li><a href="shop.html">Products #1</a></li>
+                                <li><a href="shop2.html">Products #2</a></li>
+                                <li><a href="shop3.html">Products #3</a></li>
+                                <li><a href="shopdetail.html">Detail products</a></li>
+                            </ul>
+                        </li> -->
+                        <!-- <li><a href="checkout.html"><span>Checkout</span></a></li> -->
+                        <li><a href="contact.html"><span>关于我们</span></a></li>
+                    </ul>
+
+                    <!-- basket -->
+                    <!-- <div class="basket open-popup" data-rel="1">
+                        <div class="img-wrapper">
+                            <span>1</span>
+                        </div>
+                        <br>
+                        <p>total: <span>149.95&#36;</span></p>
+                    </div> -->
+                    <!-- login -->
+                    <!-- <div class="login-wrapper">
+                        <div class="login open-popup" data-rel="2"><span>Log in &#47; Sing up</span></div>
+                    </div>      -->
+
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                     <div class="hamburger-icon-2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- OVERLAY-MENU -->
+    <div class="overlay-wrapper">
+        <div class="overlay-animation"></div>
+        <div class="flex">
+        <div class="flex-in">
+        <div class="overlay-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="btn-close"><span></span><span></span></div>
+                    <div class="col-md-2 col-md-offset-5">
+                        <!-- login -->
+                        <!-- <div class="login-wrapper">
+                            <div class="login open-popup" data-rel="2">Log in &#47; Sing up</div>
+                        </div>  -->
+                        <!-- basket -->
+                        <!-- <div class="basket open-popup" data-rel="1">
+                            <div class="img-wrapper">
+                                <img src="img/shop/basket-2.png" alt="">
+                                <span>1</span>
+                            </div>
+                            <br>
+                            <p>total: <span>149.95&#36;</span></p>
+                        </div> -->
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li class="active"><a href="collection.html">琳琅集</a></li>
+                            <li><a href="product.html">博物家</a></li>
+                            <!-- <li class="dropdown-plus">
+                                <a href="portfolio.html"><span>Portfolio</span></a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="portfolio.html">Portfolio #1</a></li>
+                                    <li><a href="portfolio_wide.html">Portfolio #2</a></li>
+                                    <li><a href="detail.html">Portfolio detail</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="post.html">Blog post</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-plus">
+                                <a href="shop.html">Products</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="shop.html">Products #1</a></li>
+                                    <li><a href="shop2.html">Products #2</a></li>
+                                    <li><a href="shop3.html">Products #3</a></li>
+                                    <li><a href="shopdetail.html">Detail products</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="checkout.html">Checkout</a></li> -->
+                            <li><a href="contact.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- end OVERLAY-MENU -->
+
+    <!-- content -->
+    <div id="content">
+
+        <div class="baner-bg">
+            <div class="bg-item fix" style="background-image:url(img/about_bg.jpg)"></div>
+               <div class="vertical-align full white-color">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                        <h2 class="h2 title">琳琅集<span></span></h2>
+                          <div class="simple-text">   
+                            <div class="empty-space h25-xs"></div>
+                            <p>“非天下之至通，难与言山海之义矣。达观博物之客，其鉴之哉。” —— 《注山海经叙·郭璞》</p>
+                          </div>    
+                    </div>
+               </div>  
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <section class="section">  
+            <div class="empty-space h30-xs h100-md"></div>
+            <div class="empty-space h30-xs"></div> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <article class="text-center grey-dark">
+                            <h3 class="h3">3D技术展示文物，身临其境感受文物魅力</h3>
+                        </article>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs h30-sm"></div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                       <p>依托科技手段创新呈现展陈方式的3D虚拟展览，正成为博物馆发展中不可缺少的展览模式，在更便捷更广泛的传播环境中，使博物馆馆藏文物真正“活”起来。</p> 
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                       <p>数字化博物馆可以有效解决文物保护问题，利用3D扫描技术对重要文物进行建模，最大化还原文物，实现文物资源由物质资源向数字资源的转化，完成文物的数字化信息保护。</p> 
+                    </div>
+                </div>
+                <div class="empty-space h35-xs"></div>
+                <!-- <div class="row">
+                    <div class="col-xs-12">
+                        <div class="center-wrap"><a href="#" class="btn-2"><span>contact us</span></a></div>
+                    </div>
+                </div> -->
+            </div>
+        </section> 
+        
+        <section class="section">
+            <div class="empty-space h30-xs h100-md"></div>
+            <div class="empty-space h30-xs"></div> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                         <h2 class="h2">东观重阁<span></span></h2>
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+                        <div class="text-center grey-dark">
+                            <div class="empty-space h25-xs"></div>
+                            <p>实体文物的数字孪生技术与3D数字展陈，让历史文物触手可及</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h35-xs h50-md"></div>
+                <div class="row">
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_1.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail1.html">
+                               <h3 class="h6 title">寿山金玉冻游龙钮章</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>印章，中国文明古国的象征之一。</p>
+                                    <p>吴昌硕的《西冷印社记》说：“印之佩，见于六国，著于秦，盛于汉…</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_2.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail2.html">
+                               <h3 class="h6 title">灰陶彩绘龙纹瓶</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>灰陶在新石器时代早期裴李岗文化遗址中已经出现，仰韶文化、龙山文化时期都有一定数量的灰陶。</p>
+                                    <p>商、周时代，灰陶占据了绝对统治地位</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_3.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail3.html">
+                               <h3 class="h6 title">祥云纹玉佩</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>玉在中国的文明史上有着特殊的地位，《诗经》里有“言念君子，温其如玉”之句。古人给美玉赋予了那么多人性的品格，以至于人们仍将谦谦君子喻为“温润如玉”。</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_4.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail4.html">
+                               <h3 class="h6 title">元青花残片</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>元青花瓷（又称元青花），即元代生产的青花瓷器。</p>
+                                    <p>元青花瓷大改传统瓷器含蓄内敛风格，以鲜明的视觉效果，给人以简明的快感。以其大气豪迈气概和艺术原创精神，将青花绘画艺术推向顶峰…</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_5.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail5.html">
+                               <h3 class="h6 title">唐三彩马俑</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>唐三彩，汉族古代陶瓷烧制工艺的珍品，全名唐代三彩釉陶器，是盛行于唐代的一种低温釉陶器。</p>
+                                    <p>釉彩有黄、绿、白、褐、蓝、黑等色，而以黄、绿、白三色为主，所以人们习惯称之为“唐三彩”。</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                       <div class="service-block">
+                           <div class="bg-item" style="background-image:url(img/service_item_img_6.jpg)"></div>
+                           <a class="desc white-color" href="shopdetail6.html">
+                               <h3 class="h6 title">掐丝珐琅花鸟图方盖壶</h3>
+                               <div class="simple-text sm">
+                                   <div class="empty-space h15-xs"></div>
+                                    <p>景泰蓝（Cloisonne），中国的著名特种金属工艺品类之一，到明代景泰年间这种工艺技术制作达到了最巅峰。</p>
+                                    <p>景泰蓝正名“铜胎掐丝珐琅”，是一种在铜质的胎型上，用柔软的扁铜丝，掐成各种花纹焊上，然后把珐琅质的色釉填充在花纹内烧制而成的器物。</p>
+                               </div>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-block">
+                        <div class="bg-item" style="background-image:url(img/service_item_img_7.jpg)"></div>
+                        <a class="desc white-color" href="shopdetail7.html">
+                            <h3 class="h6 title">观音像青花人物梅瓶</h3>
+                            <div class="simple-text sm">
+                                <div class="empty-space h15-xs"></div>
+                                 <p>梅瓶是传统名瓷，梅瓶是一种小口、短颈、丰肩 、瘦底、圈足的瓶式，以口小只能插梅枝而得名。</p>
+                                 <p>梅瓶也称经瓶，最早出现于唐代，宋辽时期较为流行，在历史上，梅瓶各大窑系都有，其造型的优美程度可以说天下第一，所以梅瓶的造型可以算是中国瓷器的第一造型。</p>
+                            </div>
+                         </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-block">
+                        <div class="bg-item" style="background-image:url(img/service_item_img_8.jpg)"></div>
+                        <a class="desc white-color" href="shopdetail8.html">
+                            <h3 class="h6 title">秦兵马俑</h3>
+                            <div class="simple-text sm">
+                                <div class="empty-space h15-xs"></div>
+                                 <p>兵马俑是古代墓葬雕塑的一个类别。古代施行人殉，奴隶主死后奴隶要作为殉葬品为奴隶主陪葬。兵马俑即制成兵马（战车、战马、士兵）形状的殉葬品。</p>
+                                 <p>《史记》记载：秦始皇陵由丞相李斯依惯例开始主持规划设计，大将章邯监工，修筑时间长达39年之久，兵马俑是修筑秦陵的同时制作并埋入随葬坑内。</p>
+                            </div>
+                         </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-block">
+                        <div class="bg-item" style="background-image:url(img/service_item_img_9.jpg)"></div>
+                        <a class="desc white-color" href="shopdetail9.html">
+                            <h3 class="h6 title">耀州窑祥龙花卉纹酒壶</h3>
+                            <div class="simple-text sm">
+                                <div class="empty-space h15-xs"></div>
+                                 <p>耀州瓷，北方青瓷的代表，其胎薄质坚，釉面光洁匀静，色泽青幽，呈半透明状，十分淡雅，因产地在宋代辖于耀州，故名耀州瓷，或名耀瓷，属宋代六大窑系。</p>
+                                 <p>“南有龙泉瓷、北有耀州瓷”。宋代时耀州窑是北方青瓷的代表，但那时颜色主要以黑釉、白釉、青釉为主，颜色单一。</p>
+                            </div>
+                         </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="empty-space h30-xs h100-md"></div>
+            <div class="empty-space h30-xs"></div> 
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container small-sm">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                        <div class="empty-space h10-xs"></div>
+                        <p>新技术背景下的文化守护者和传播者<br>文明始著薪火，煌煌众甫之遗 | find us, involve us</p>
+                    </div>
+                    <div class="empty-space h20-xs h0-md"></div>
+                    <div class="col-md-2">
+                        <h6 class="h9">地址</h6>
+                        <div class="empty-space h10-xs"></div>
+                        <ul>
+                            <li>
+                                <span>天津市南开区保泽道实泽园8号楼-2（红旗路西侧近融创中心，实泽园西门南200米，京东养车对面）</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="empty-space h20-xs h0-md"></div>
+                    <div class="col-md-2 col-md-offset-1">
+                        <h6 class="h9">联系方式</h6>
+                        <div class="empty-space h10-xs"></div>
+                        <ul>
+                            <li>
+                                <a href="tel:+86 18632315858">+86 18632315858</a>
+                            </li>
+                            <li>
+                                <a href="mailto:support@gaggleai.com">support@gaggleai.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="empty-space h20-xs h0-md"></div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <h6 class="h9">关注我们</h6>
+                        <div class="empty-space h10-xs"></div>
+                        <p>敬请期待</p>
+                        <div class="empty-space h15-xs h25-md"></div>
+                        <!-- <div class="follow">
+                            <a class="item" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a class="item" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a class="item" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+                            <a class="item" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="item" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="empty-space h25-xs"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            Copyright &copy; 2023 15Tang. All Rights Reserved. 十五堂（天津）文化科技有限公司. Development with Mevo. Powered by Github Pages
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div>
+    <!-- content -->
+
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://ditu.google.cn/maps/api/js?sensor=false&amp;language=en"></script>
+    <script src="js/map.js"></script>
+    <script src="js/global.js"></script>
+
+</body>
+</html>
